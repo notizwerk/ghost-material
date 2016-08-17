@@ -48,7 +48,7 @@ strong, b {
   bottom: 0; left: 0;
   width: 100%;
   height: 50%;
-  opacity: .6;
+  opacity: .3; /* .6; */
   background: linear-gradient(transparent, black);
 }
 .bg-darken {
@@ -920,7 +920,8 @@ strong, b {
   font-size: 2rem;
 }
 .footer--bottom {
-  background-color: rgba(51,51,51,0.08);
+  background-color: #1976D2;  
+  /* background-color: rgba(51,51,51,0.08); */
 }
 
 @media(min-width: 600px) {
